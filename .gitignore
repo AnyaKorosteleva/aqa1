@@ -1,5 +1,5 @@
 Thumbs.db*
-.DS_Store*
+.DS_Store
 HELP.md
 .gradle
 build/
@@ -40,8 +40,5 @@ out/
 *.tar.gz
 *.rar
 
-### Exclusions ###
-!gradle/wrapper/gradle-wrapper.jar
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+### Node ###
+node_modules/
